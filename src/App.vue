@@ -3,7 +3,7 @@
     <v-app>
     <div id="nav">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><span style="color:darkgreen; font-size:30px;">R</span>etired<span style="color:darkgreen; font-size:30px;">G</span>reens</a>
+        <a class="navbar-brand" href="#"><span style="color:darkgreen; font-size:30px;">4</span><img src="https://isl.co/wp-content/uploads/2016/07/vue-logo.png" class="logo" width="30px" height="30px" alt="vue">ets</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,7 +48,6 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
 #nav {
   .navbar-brand {
     padding-top:4px!important;
