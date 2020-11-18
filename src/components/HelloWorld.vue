@@ -18,7 +18,10 @@
       </article>
     </div>
     <br><br><br><br><br><br><br>
-    <div class="container benefitsBlock">
+    <div class="benefitsBlock">
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="container">
       <h2>Veteran Benefits Guide</h2>
       Paying For College with the <a href="https://www.va.gov/education/how-to-apply/" target="_blank">GIBILL</a> and using <a href="https://studentaid.gov/h/apply-for-aid/fafsa" target="_blank">FAFSA</a> <br>
       Buying a house with <a href="https://www.veteransunited.com/lp/?src=msn&adg=mvala&desc=apply&msclkid=9e0a38f5d621106d207f6740aeadb25b&utm_source=bing&utm_medium=cpc&utm_campaign=NS%20-%20VA%20Home%20Loan%20-%20E&utm_term=applying%20for%20va%20home%20loan&utm_content=VA%20Home%20Loan%20-%20Apply" target="_blank">VeteransUnited</a>
@@ -71,12 +74,12 @@ mark {
 }
 
 .benefitsBlock {
-  background: url(https://www.samhealth.org/-/media/SHS/Images/000-Corporate%20locations%20and%20logos/Logos/We-Honor-Veterans-Level-Four-Logo-CO.png?h=300&w=360&la=en&hash=735F478A370846E7DB42E604EE37A7ACA19A2664) no-repeat center center; 
+  background: url(https://bloximages.chicago2.vip.townnews.com/journaltimes.com/content/tncms/assets/v3/editorial/8/15/81542573-2971-5845-af14-89f4d2a9917f/58c8800697243.image.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: auto;
+  height: 40vh;
   padding-top:7%;
   padding-bottom:10%;
   // padding-left:10%;

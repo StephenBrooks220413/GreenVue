@@ -1,10 +1,6 @@
 <template>
   <div class="about">
     
-    <div class="jumbotron text-center">
-      <h1>This is an about page</h1>
-
-    </div>
     <div class="container text-center intro-content" itemscope itemprop="author">
       <h1 class="display-4">About the author</h1>
       <br><br>
