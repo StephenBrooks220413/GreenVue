@@ -81,6 +81,15 @@ mark {
   padding-bottom:10%;
   // padding-left:10%;
 }
+
+@media(max-width:950px){
+  .benefitsBlock {
+    background: none;
+  }
+  .hello-content {
+    background: none;
+  }
+}
 strong {
   border-top: 1px solid black;
   width:70px;

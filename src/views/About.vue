@@ -52,4 +52,11 @@
   padding-top:20px;
   padding-bottom:20px;
 }
+
+@media(max-width:750px){
+  .intro-content {
+    background: none;
+  }
+}
+
 </style>
