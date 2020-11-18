@@ -19,10 +19,10 @@
     </div>
     <br><br><br><br><br><br><br>
     <!-- about author -->
-    <img src="http://lickei.com/Nesdvva/wp-content/uploads/2012/01/namwall.jpg" width="300px" height="300px" alt="">
-      <br><br><br>
-    <div class="container text-center" itemscope itemprop="author">
-      
+    
+    <div class="container text-center intro-content" itemscope itemprop="author">
+      <h1 class="display-4">About the author</h1>
+      <br><br>
       <div class="row">
         <div class="col-md-4">
         <h1>Experience</h1>
@@ -41,6 +41,26 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsum 
         rerum totam, porro recusandae quidem voluptatibus 
         optio non neque sint maiores expedita dicta qui iusto maxime quod cum quasi quam.
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <!--info block-->
+    <div class="container text-center">
+      <h2>Most Searched Topics</h2>
+      <br>
+      <small>DIRECT LINKS TO THE INFORMATION</small>
+      <br><br><br>
+      <div class="row">
+        <div class="col-md-6">
+          Benefit Elgibility Status for Education <br>
+          Benefit Elgibility Status for Disability <br>
+          Benefit Elgibility Status for Health Care 
+        </div>
+        <div class="col-md-6">
+          VA Facilities Near Me <br>
+          Changes made my VA benefits <br>
+          Log into your VA benefits account
         </div>
       </div>
     </div>
@@ -72,6 +92,17 @@ export default {
   height: auto;
   padding-top:7%;
   padding-bottom:10%;
+}
+
+.intro-content {
+  background: url(https://i.stack.imgur.com/M2A8V.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .hello-content h1 {
   font-size:3em!important;
