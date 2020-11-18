@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <router-link to="/">Home</router-link>
-            <router-link to="/about">About</router-link>
+            <router-link to="/">About</router-link>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Follow Us
@@ -72,7 +72,6 @@
   padding:10px;
   letter-spacing: 30px;
   font-size:32px;
-  padding-left:70%;
 
   .social-media-wrapper i {
     color:#2c3e50;
