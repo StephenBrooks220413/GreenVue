@@ -22,8 +22,8 @@
                 <a class="dropdown-item" href="https://linkedin.com" target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
-                <a class="dropdown-item" href="https://twitter.com" target="_blank">
-                  <i class="fab fa-twitter-square"></i>
+                <a class="dropdown-item" href="https://github.com/StephenBrooks220413/" target="_blank">
+                  <i class="fab fa-github"></i>
                 </a>
               </div>
             </li>
