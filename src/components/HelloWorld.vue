@@ -8,11 +8,10 @@
     <div class="container text-center">
       <article itemid="article-section">
         <h5>
-          A place for vets to find <mark>resources</mark> easier, wihtout going through hoops and events happening. 
+          A place for vets to find <mark>resources</mark> easier, wihtout going through hoops and what events are happening. 
           Think of it as reading a newspaper but updated weekly on the web. What inspired this was that 
-          I had trouble locating info on <mark>benefits</mark>, the complicated <mark>VA</mark> site, nad when there are people 
-          who get paid to help it doesn't seem like they are helping or even care. It is my focus to 
-          provide as much as I can for vets at no cost to them. This is <mark>nonprofit</mark> and any charity goes 
+          I had trouble locating info on <mark>benefits</mark>,and the complicated <mark>VA</mark> site. It is my focus to 
+          provide as much as I can for vets at no cost to them. This is <mark>nonprofit</mark> and any charity will go 
           toward veteran programs.
         </h5>
       </article>
