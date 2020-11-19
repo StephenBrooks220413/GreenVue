@@ -17,10 +17,10 @@
         </h5>
       </article>
     </div>
-    <br><br><br>
+    <br><br><br><br><br>
     <div class="benefitsBlock">
     </div>
-    <br><br><br><br>
+    <br><br><br><br><br><br><br>
     <div class="container benefits">
       <h2>Veteran Benefits Guide</h2>
       Paying For College with the <a href="https://www.va.gov/education/how-to-apply/" target="_blank">GIBILL</a> and using <a href="https://studentaid.gov/h/apply-for-aid/fafsa" target="_blank">FAFSA</a> <br>
@@ -34,9 +34,22 @@
     <br><br><br><br><br><br><br>
     <!-- about author -->
     
+    <br><br><br>
+      <h1 class=" text-center display-4">Make A Donation</h1>
+      <br>
+    <div class="donate">
+      <form action="https://www.paypal.com/donate" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations" />
+        <input type="hidden" name="business" value="PRN8W7ZUQZFHQ" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+    </div>
+    <br><br><br><br><br><br><br>
     
     <!--info block-->
-    <div class="container text-center">
+    <div class="container topics text-center">
       <h2>Most Searched Topics</h2>
       <br>
       <small>DIRECT LINKS TO THE INFORMATION</small>
@@ -124,6 +137,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.donate {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 240px;
+  height: auto;
+  margin-left:auto;
+  margin-right: auto;
+}
 mark {
   background-color:rgb(221, 221, 143);
 }
@@ -146,6 +168,11 @@ button {
 
 .benefits {
   padding-left:10%;
+  font-size:20px!important;
+}
+
+.topics {
+  font-size:20px!important;
 }
 
 @media(max-width:950px){
