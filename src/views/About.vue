@@ -1,7 +1,9 @@
 <template>
   <div class="about">
-    
-    <div class="container text-center intro-content" itemscope itemprop="author">
+    <br><br><br><br>
+    <div class="container profile text-center"></div>
+    <br><br><br>
+    <div class="container text-center" itemscope itemprop="author">
       <h1 class="display-4">About the author</h1>
       <br><br>
        
@@ -32,27 +34,32 @@
       </div>
     </div>
     <br><br>
-
+    <VetWall/>
+    <br><br><br><br><br>
   </div>
 </template>
 
+<script>
+// @ is an alias to /src
+import VetWall from '@/components/VetWall.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    VetWall
+  }
+}
+</script>
+
 <style scoped>
   
-.intro-content {
-  background: url(https://i.stack.imgur.com/M2A8V.png) no-repeat center center; 
+.profile {
+  background: url(https://images.unsplash.com/photo-1541513982013-5dc4f56697f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: auto;
-  padding-top:20px;
-  padding-bottom:20px;
-}
-
-@media(max-width:750px){
-  .intro-content {
-    background: none;
-  }
+  height: 70vh;
 }
 
 </style>
