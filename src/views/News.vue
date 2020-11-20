@@ -1,12 +1,12 @@
 <template>
   <div class="news">
     <!---header--->
-    <h1 class="text-center">Articles & News</h1>
+    <h1 class="text-center" itemid="article-header">Articles & News</h1>
     <br><br><br><br><br><br>
     <div class="container">
     <hr>
       <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center" itemtype="article-section-fort-sill">
         <!---Fort Sill--->
           <h4>Happening at Fort Sill</h4>
           <small><a href="https://www.swoknews.com/news/fort-sill-rolls-out-new-pinks-and-greens-uniforms/article_0153800a-9b22-5d06-9561-4f9f364324a0.html">SOURCE PULL</a></small>
@@ -33,7 +33,7 @@
       </div>
       <br><br><br><br><br><br>
       <hr>
-      <div class="row">
+      <div class="row" itemtype="article-section-fort-hood">
         <!---Fort Hood--->
         <div class="col-md-12 text-center">
           <h4>Happening at Fort Hood</h4>
@@ -61,8 +61,8 @@
       </div>
       <br><br><br><br><br><br>
       <hr>
-      <div class="row">
-        <!---Fort Hood--->
+      <div class="row" itemtype="article-section-health-care">
+        <!---Health Care--->
         <div class="col-md-12 text-center">
           <h4>Current Health Care News</h4>
           <small><a href="https://www.usnews.com/news/national-news/articles/2020-11-18/what-to-know-about-timing-and-distribution-of-coronavirus-vaccines">SOURCE PULL</a></small>
