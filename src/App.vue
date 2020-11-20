@@ -11,6 +11,7 @@
           <ul class="navbar-nav">
             <router-link to="/">Home</router-link>
             <router-link to="/about">About</router-link>
+            <router-link to="/news">News</router-link>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Follow Us
@@ -34,7 +35,7 @@
     <router-view/>
       <v-main>
         <v-container>
-          
+
         </v-container>
       </v-main>
     </v-app>
