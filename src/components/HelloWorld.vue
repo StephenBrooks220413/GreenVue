@@ -37,13 +37,8 @@
       <h1 class=" text-center display-4">Make A Donation</h1>
       <br>
     <div class="donate">
-      <form action="https://www.paypal.com/donate" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_donations" />
-        <input type="hidden" name="business" value="PRN8W7ZUQZFHQ" />
-        <input type="hidden" name="currency_code" value="USD" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-      </form>
+      If you wish to donate, do it with a veteran or the VA directly.
+
     </div>
     <br><br><br><br><br><br><br>
     
