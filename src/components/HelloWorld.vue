@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div class="jumbotron hello-content">
-      <h1 class="text-center display-4">Welcome Home</h1>
+      <h1 class="text-center display-4">Never Forgotten</h1>
     </div>
     <br /><br />
     <!--about section-->
