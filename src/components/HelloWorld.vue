@@ -92,13 +92,18 @@
       <br /><br /><br />
       <div class="row">
         <div class="col-md-6">
-          Benefit Elgibility Status for Education <br />
-          Benefit Elgibility Status for Disability <br />
-          Benefit Elgibility Status for Health Care
+          Benefit Eligibility Status for
+          <a href="https://www.va.gov/" target="_blank">Education</a><br />
+          Benefit Eligibility Status for
+          <a href="https://www.va.gov/" target="_blank">Disability</a><br />
+          Benefit Eligibility Status for
+          <a href="https://www.va.gov/" target="_blank">Health Care</a><br />
         </div>
         <br /><br />
         <div class="col-md-6">
-          VA Facilities Near Me <br />
+          VA Facilities
+          <a href="https://www.va.gov/find-locations/" target="_blank">Near</a>
+          Me <br />
           Changes made my VA benefits <br />
           Log into your
           <a
@@ -166,6 +171,7 @@
                 >
               </h4>
             </div>
+            <br /><br />
           </div>
         </div>
       </div>
@@ -211,7 +217,7 @@ button {
   height: 40vh;
   padding-top: 7%;
   padding-bottom: 10%;
-  // padding-left:10%;
+  padding-left: 10%;
 }
 
 .benefits {
@@ -249,14 +255,14 @@ strong {
   -o-background-size: cover;
   background-size: cover;
   height: auto;
-  padding-top: 20%;
+  padding-top: 25%;
   padding-bottom: 20%;
 }
 
 .hello-content h1 {
-  font-size: 3em !important;
+  font-size: 4em !important;
   font-weight: 600 !important;
-  color: #cea135 !important;
+  color: #dfa112b4 !important;
   text-shadow: 9px 11px 9px grey !important;
 }
 .hello-content h3 {

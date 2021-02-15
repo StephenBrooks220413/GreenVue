@@ -29,6 +29,7 @@
               <router-link to="/">Home</router-link>
               <router-link to="/about">About</router-link>
               <router-link to="/news">News</router-link>
+              <router-link to="/interest">Interest</router-link>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
