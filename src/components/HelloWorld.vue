@@ -1,11 +1,11 @@
 <template>
   <div class="hello">
-    <div class="jumbotron hello-content">
-      <h1 class="text-center display-4">Never Forgotten</h1>
+    <div id="box2" class="jumbotron box hello-content">
+      <h1 class="text-center main display-4">Never Forgotten</h1>
     </div>
     <br /><br />
     <!--about section-->
-    <div class="container text-center">
+    <div class="container main2 text-center">
       <article itemid="article-section">
         <h5>
           A place for vets to find <mark>resources</mark> easier, wihtout going
@@ -21,7 +21,7 @@
     <br /><br /><br />
     <div class="benefitsBlock"></div>
     <br /><br /><br />
-    <div class="container benefits">
+    <div class="container main benefits">
       <h2>Veteran Benefits Guide</h2>
       Paying For College with the
       <a href="https://www.va.gov/education/how-to-apply/" target="_blank"
@@ -190,6 +190,30 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+#fademe{
+opacity:0;
+transition:2s;
+}
+.main { 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+
+.main2 { 
+    animation: fadeInAnimation ease 5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
 .donate {
   align-content: center;
   justify-content: center;

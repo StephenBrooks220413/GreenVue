@@ -81,6 +81,7 @@
 <style lang="scss">
 @import "./assets/bootstrap.min.css";
 @import "~mdb-ui-kit/css/mdb.min.css";
+@import "./assets/progressive.css";
 
 #app {
   -webkit-font-smoothing: antialiased;

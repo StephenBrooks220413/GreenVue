@@ -56,8 +56,6 @@
       voluptas error nihil sequi laudantium! Dignissimos nemo esse beatae earum
       sed.
     </div>
-    <br />
-    <br />
   </div>
 </template>
 
